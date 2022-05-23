@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "timesformer"
+version = "0.1.0"
+description = ""
+authors = ["Stepanova Ekaterina <watermellon2018@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.4"
+einops = "^0.4.1"
+torch = "^1.11.0"
+pytorch-lightning = "^1.6.3"
+wandb = "^0.12.16"
+torchvision = "^0.12.0"
+opencv-python = "^4.5.5"
+albumentations = {git = "https://github.com/albumentations-team/albumentations"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
